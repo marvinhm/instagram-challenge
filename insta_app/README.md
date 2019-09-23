@@ -1,4 +1,4 @@
-Finstagram Challenge
+Finstagram
 ===================
 
 I am building an Instagram clone. It will allow **Users** to be able to post **pictures**, write **comments** on pictures and **like** a picture. Styled like Instagram's website (or more awesome).
