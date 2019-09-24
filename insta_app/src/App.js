@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+import Login from './lib/login';
+import Counter from './lib/counter';
+
+
 // import './App.css';
 
 function App() {
@@ -7,10 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>
-        Click me
-      </button>
+      <Login />
     </div>
   );
 }

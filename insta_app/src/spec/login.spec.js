@@ -18,16 +18,16 @@ describe('Login component', () => {
         expect(label).toEqual("Name")
     })
 
-    // it('name input should exist', () => {
-    //     const wrapper = shallow(<Login />)
-    //     const input = wrapper.find('form input');
-    //     const btn = wrapper.find
-    //     input.simulate('focus');
-    //     input.simulate('change', { target: { value: 'User1' } });
-    //     incrementBtn.simulate('click')
+    it('name input should exist', () => {
+        const wrapper = shallow(<Login />)
+        // const input = wrapper.find('form input');
+        // const btn = wrapper.find
+        // btn.simulate('focus');
+        // input.simulate('change', { target: { value: 'User1' } });
+        // incrementBtn.simulate('click')
 
-    //     expect(label).toEqual("Name")
-    // })
+        expect(wrapper.exists('form input.name')).toEqual(true);
+    })
 
     // it('Starts with sign up page', () => {
     //     const wrapper = shallow(<User />)

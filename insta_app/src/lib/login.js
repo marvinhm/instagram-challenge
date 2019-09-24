@@ -8,9 +8,9 @@ class Login extends Component {
                 <form>
                     <label>
                         Name
-                        <input type="text" name="name" />
+                        <input className="name" type="text" name="name" />
                     </label>
-                    <input type="submit" value="Submit" />
+                    <input className="btn" type="submit" value="Submit" />
                 </form>
             </div>
         )
