@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import User from './lib/user'
 import Login from './lib/login';
 import Counter from './lib/counter';
 
@@ -11,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <Login />
+      <User />
     </div>
   );
 }
