@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import User from '../lib/user';
+import User from '../components/user';
 import { shallow, mount } from 'enzyme';
 import renderer from 'react-test-renderer';
 

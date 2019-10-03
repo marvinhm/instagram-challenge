@@ -1,5 +1,5 @@
 import React from 'react';
-import Counter from '../lib/counter';
+import Counter from '../components/counter';
 import { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
 

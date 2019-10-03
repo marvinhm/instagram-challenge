@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Login from '../lib/login';
+import Login from '../components/login';
 import { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
 

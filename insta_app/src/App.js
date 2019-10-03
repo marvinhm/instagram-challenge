@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import User from './lib/user'
-import Login from './lib/login';
-import Counter from './lib/counter';
+import User from './components/user'
+import Login from './components/login';
+import Counter from './components/counter';
 
 
 // import './App.css';
